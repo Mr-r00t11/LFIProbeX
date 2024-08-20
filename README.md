@@ -28,21 +28,21 @@ Para auditar una sola URL utilizando una lista de payloads:
 
 `python LFIProbeX.py --url "https://example.com/vuln.php?param=" -w wordlist.txt`
 
-![[Pasted image 20240819215156.png]]
+![[Pasted image 20240819215156.png]](https://raw.githubusercontent.com/Mr-r00t11/LFIProbeX/main/img/Pasted%20image%2020240819215156.png)
 ### Auditar múltiples URLs
 
 Para auditar múltiples URLs desde un archivo:
 
 `python LFIProbeX.py -l urls.txt -w wordlist.txt`
 
-![[Pasted image 20240819215230.png]]
+![[Pasted image 20240819215230.png]](https://raw.githubusercontent.com/Mr-r00t11/LFIProbeX/main/img/Pasted%20image%2020240819215230.png)
 ### Verbosidad
 
 Para habilitar la verbosidad y ver la respuesta completa cuando se detecta una vulnerabilidad:
 
 `python LFIProbeX.py --url "https://example.com/vuln.php?param=" -w wordlist.txt -v`
 
-![[Pasted image 20240819215306.png]]
+![[Pasted image 20240819215306.png]](https://raw.githubusercontent.com/Mr-r00t11/LFIProbeX/main/img/Pasted%20image%2020240819215306.png)
 ## Parámetros
 
 - `--url`: Especifica una única URL para auditar.
