@@ -1,10 +1,6 @@
 LFIProbeX 🔍
 
 Strict LFI Auditor - /etc/passwd Detection Only (No False Positives)
-
-https://img.shields.io/badge/Python-3.x-blue.svg
-https://img.shields.io/badge/License-MIT-green.svg
-
 📖 Description
 LFIProbeX is an advanced Local File Inclusion (LFI) vulnerability scanner designed with a strict focus on detecting real vulnerabilities while eliminating false positives. Unlike traditional scanners, it specifically targets /etc/passwd file inclusion with multiple verification layers to ensure accurate results.
 
