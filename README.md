@@ -1,5 +1,6 @@
 **Strict LFI Auditor - /etc/passwd Detection Only (No False Positives)**
-![[ChatGPT Image 19 oct 2025, 07_29_36 p.m..png]]
+
+![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/LFIProbeX.png?raw=true)
 ## 📖 Description
 
 LFIProbeX is an advanced Local File Inclusion (LFI) vulnerability scanner designed with a strict focus on detecting **real vulnerabilities** while eliminating false positives. Unlike traditional scanners, it specifically targets `/etc/passwd` file inclusion with multiple verification layers to ensure accurate results.
@@ -86,16 +87,16 @@ python LFIProbeX.py -r burp_request.txt -w wordlist.txt -p file page template -t
 ```
 
 # Burp Suite Scan
-![[Request_Scan.png]]
+![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/Request_Scan.png?raw=true)
 
 # URL Scan
-![[URL_Scan.png]]
+![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/URL_Scan.png?raw=true)
 
 # Path Scan
-![[Path_Scan.png]]
+![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/Path_Scan.png?raw=true)
 
 # List Scan
-![[List_Scan.png]]
+![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/List_Scan.png?raw=true)
 
 ## 🎨 Available Encoding Types
 |Encoding Type|Description|Example|
