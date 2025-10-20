@@ -1,4 +1,4 @@
-**Strict LFI Auditor - /etc/passwd Detection Only (No False Positives)**
+# **Strict LFI Auditor - /etc/passwd Detection Only (No False Positives)**
 
 ![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/LFIProbeX.png?raw=true)
 ## 📖 Description
