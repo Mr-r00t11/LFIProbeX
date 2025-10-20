@@ -90,6 +90,15 @@ python LFIProbeX.py -r burp_request.txt -w wordlist.txt -p file page template -t
 ![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/Request_Scan.png?raw=true)
 
 # URL Scan
+✅ Correct URL File Format
+urls.txt:
+```bash
+http://example.com/page.php?file=index
+https://target.com/view.php?page=home&id=1
+http://test.com/include?template=default
+http://site.com/load?document=readme
+http://webapp.com/render?view=profile
+```
 ![](https://github.com/Mr-r00t11/LFIProbeX/blob/main/img/URL_Scan.png?raw=true)
 
 # Path Scan
